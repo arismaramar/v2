@@ -171,7 +171,7 @@ run_ei() {
   sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
   
   # Link izin IP VPS
-  url_izin="https://raw.githubusercontent.com/arismaramar/izin/main/ip"
+  url_izin='https://raw.githubusercontent.com/arismaramar/v2/main/izin.txt'
 
   # Mendapatkan IP VPS saat ini
   ip_vps=$(curl -s ifconfig.me)
@@ -431,7 +431,7 @@ cat> /etc/issue.net << END
 <b><font color='#66CDAA'>TELEGRAM:</font> <font color='#800000'>t.me/amantubilah</font><br>
 <b><font color='#66CDAA'>WHATSAPP :</font> <font color='#800000'>wa.me/6281215360549</font><br>
 <b><font color='#66CDAA'>GROUP:</font> <font color='#800000'>https://wa.me/6285365581599</font><br>
-<b><font color='#66CDAA'>TESTIMONI:</font> <font color='#800000'>t.me/yogztesti</font><br>
+<b><font color='#66CDAA'>TESTIMONI:</font> <font color='#800000'>t.me/amantubilah</font><br>
 END
 /etc/init.d/dropbear restart
 echo "/bin/false" >> /etc/shells
@@ -676,7 +676,7 @@ history -c
 echo "1.2" > /home/ver
 echo ""
 clear
-figlet "Yogzz" 
+figlet "anggun" 
 echo -e "" 
 echo -e "Untuk membuka panel AutoSC Masukan" 
 echo -e "perintah ( menu ) tanpa tanda kurung" 
