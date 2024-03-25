@@ -10,10 +10,6 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
 fi
-if [ -f "/etc/xray/domain" ]; then
-echo "Script Already Installed"
-exit 1
-fi
 }
 
 run_peli() {
